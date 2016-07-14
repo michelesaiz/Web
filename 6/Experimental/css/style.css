@@ -1,0 +1,83 @@
+
+body { 
+	max-width: 960px;
+	margin: 0 auto;
+	font-family: 'Work Sans', sans-serif;
+	background-color: #1c98c8;
+}
+
+header img{
+	width: 50%;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 3%;
+	font-size: 24px;
+}
+
+section {
+	margin-top: 10%;
+}
+
+article img {
+	width: 45%;
+	float: left;
+	margin-right: 20px;
+}
+
+article p {
+	line-height: 1.75em;
+	padding: 0;
+	color: white;
+	font-size: 1em;
+	text-align: justify;
+}
+#second {
+	width: 50%;
+	float: left;
+}
+
+#third {
+	width: 100%;
+	text-align: center;
+	margin-top: 10%;
+}
+
+footer{
+	border-top: 1px solid white;
+	padding: 2% 0;
+	color:white;
+	clear:both;
+}
+
+@-webkit-keyframes move {
+	0% {
+		top: 0px;
+	}
+
+	50% {
+		top: 100px;
+	}
+
+	100% {
+		top: 0px;
+	}
+}
+
+#totoro {
+	position:relative;
+	-webkit-animation-name: move;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction:alternate;
+	-webkit-animation-timing-function: ease-in-out;
+}
+
+.animated {
+	-webkit-animation-name: fadeIn;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 3s;
+	-webkit-animation-iteration-count: 1;
+}
+

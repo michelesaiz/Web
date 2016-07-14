@@ -1,0 +1,164 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+header {
+	padding: 3% 40%;
+	text-align:center;
+}
+
+header img {
+	width: 100%;
+	max-width: 200px;
+}
+
+nav {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+	margin: 2%;
+}
+
+nav li {
+	font-weight: bold;
+	font-size: 0.875em;  
+	display: inline-block;
+	padding: 0px 50px;
+}
+
+nav li:hover {
+	color:#d02e2e;
+}
+
+section {
+	margin: 5% 0%;
+	width: 60%;
+	float:left;
+}
+
+section h1 {
+	font-size: 2em;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+
+article {
+	width: 100%;
+}
+
+article p {
+	font-size: 0.75em;
+	line-height: 1.5em;
+}
+
+article h2 {
+	font-size: 1.125em;
+	font-weight: bold;
+}
+
+article h6 {
+	font-weight: bold;
+	font-size: 0.750em;
+}
+
+#article2 {
+	margin-top: 30px;
+}
+
+q {
+	font-style:italic;
+}
+
+button {
+	background-color:black;
+	color: white;
+	margin-top: 2%;
+	padding: 1.5%;
+	border:0;
+}
+
+button:hover {
+	background-color:#d02e2e;
+}
+
+aside {
+	width: 25%; 
+	float: right; 
+	border: 1px solid black; 
+	margin: 5% auto;
+}
+
+aside ul {
+	list-style-type: none;
+	margin-left: 6%;
+}
+
+aside h4 {
+	font-weight: bold;
+	margin: 0;
+	line-height: 1.5em;
+	font-size: 1.25em;
+}
+
+aside li {
+	font-size: 0.875em;
+	margin: 6%;
+	line-height: 0.75em;
+}
+
+a:link {
+	text-decoration: none;
+	color:black;
+}
+
+a:hover {
+	color: #d02e2e;
+}
+
+footer {
+	width:100%;
+	border-top: 1px solid black;
+	padding-top: 2%;
+	margin-bottom: 2%;
+	font-weight: bold;
+	font-size: 0.625em;
+	clear: both;
+}
+
+@media screen and (max-width:400px) { 
+	
+
+	nav {
+		text-align: center;
+	}
+
+	nav li {
+		display: block;
+		margin-top: 5px;
+	}
+
+	section {
+		width: 100%;
+		margin: 20px;
+	}
+
+	aside {
+		width: 85%;
+		text-align: center;
+		margin: 20px;
+	}
+
+	footer {
+		text-align: center;
+	}
+
+}
