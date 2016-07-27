@@ -37,6 +37,14 @@ body {
 	display: none;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
 /*nav bar*/
 
 header nav{ 
@@ -129,17 +137,20 @@ nav ul li {
 }
 
 .text1 h3 {
-	color: #e62b1e;
 	max-width: 100px;
 	font-weight: 400;
 	font-size: 1.5em;
 	text-align: right;
 	margin: 10% 0 0 75%;
+}
+
+.text1 h3 a {
+	color: #e62b1e;
 	transition: 2s ease-in-out;
 }
 
-.text1 h3:hover {
-	color: white;
+.text1 h3 a:hover {
+	color:white;
 	transition: 2s ease-in-out;
 }
 
@@ -205,7 +216,6 @@ footer {
 
 	header nav {
 		text-align: center;
-
 	}
 
 	nav {
