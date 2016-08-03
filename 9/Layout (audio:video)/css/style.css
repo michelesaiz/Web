@@ -1,7 +1,7 @@
 body {
 	max-width: 1024px;
-	height: 100%;
-	font-family: 'Dosis', sans-serif;
+/*	height: 100%;
+*/	font-family: 'Dosis', sans-serif;
 }
 
 .bg-video {
@@ -63,7 +63,6 @@ nav a:visited{
 .discography {
 	width: 110%;
 	height: 750px;
-	margin-top: 70%;
 	margin-left: 15%;
 	margin-bottom: 15%;
 /*	border: 3px red solid;
