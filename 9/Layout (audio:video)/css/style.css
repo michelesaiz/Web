@@ -1,7 +1,7 @@
 body {
 	max-width: 1024px;
-/*	height: 100%;
-*/	font-family: 'Dosis', sans-serif;
+	height: 100%;
+	font-family: 'Dosis', sans-serif;
 }
 
 .bg-video {
@@ -36,8 +36,9 @@ nav {
 	width: 75%;
 	position: relative;
 	text-align: right;
-	margin-left: 60%;
-	margin-top: 64%;
+	margin-left: 90%;
+	margin-top: 80%;
+	margin-bottom: 0px;
 /*	border: 3px red solid;
 */}
 
@@ -63,7 +64,8 @@ nav a:visited{
 .discography {
 	width: 110%;
 	height: 750px;
-	margin-left: 15%;
+	padding-top: 0px;
+	margin-left: 38%;
 	margin-bottom: 15%;
 /*	border: 3px red solid;
 */}
@@ -210,7 +212,7 @@ nav a:visited{
 .conocenos {
 	width: 110%;
 	height: 750px;
-	margin: 0 0 15% 15%;
+	margin: 0 0 15% 38%;
 /*	border: 3px solid red;
 */}
 
@@ -385,7 +387,7 @@ nav a:visited{
 .concierto {
 	width: 110%;
 	height: 520px;
-	margin-left: 13%;
+	margin-left: 35%;
 	margin-bottom: 35%;
 /*	border: 3px solid red;
 */
@@ -480,7 +482,7 @@ table a:hover {
 #logobtm {
 	width: 25%;
 	position: absolute;
-	top: 35%;
+	top: 45%;
 	left: 37%;
 }
 
@@ -488,8 +490,8 @@ table a:hover {
 	width: 50%;
 	color: white;
 	position: relative;
-	top: 63%;
-	margin-left: 42%;
+	top: 80%;
+	margin-left: 44%;
 }
 
 i {
@@ -561,7 +563,7 @@ i:visited {
 	.icons {
 		color: white;
 		position: relative;
-		top: 55%;
+		top: 65%;
 		margin-left: 34%;
 	}
 }
