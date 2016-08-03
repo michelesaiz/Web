@@ -28,12 +28,16 @@ body {
 	margin-top: 18%;
 }
 
+a {
+	color: black;
+}
+
 nav {
 	width: 75%;
 	position: relative;
 	text-align: right;
-	top: 660px;
 	margin-left: 60%;
+	margin-top: 64%;
 /*	border: 3px red solid;
 */}
 
@@ -508,14 +512,15 @@ i:visited {
 	}
 
 	nav {
-		top: 380px;
 		margin-left: 12%;
-		text-align: center;
+		height: 30%;
+		margin-top: 55%;
+		margin-bottom: 0px;
 	}
 
 	.discography {
 		width: 90%;
-		margin: 60% 0 0 10%;
+		margin: 20% 0 0 10%;
 	}
 
 	#discotitle {
@@ -569,20 +574,18 @@ i:visited {
 	}
 
 	nav {
-		top: 300px;
-		text-align: center;
-		font-size: 1.5em;
+		margin-top: 55%;
 	}
 
 	nav ul li {
-		padding: 7% 3%;
-		font-size: .7em;
+		padding: 7% 2%;
+		font-size: 1em;
 		margin-bottom: 20%;
 	}
 
 	.discography {
 		width: 90%;
-		margin: 60% 0 0% 25%;
+		margin: 20% 0 0% 25%;
 	}
 
 	#discotitle {
@@ -643,19 +646,16 @@ i:visited {
 @media screen and (max-width: 400px) { 
 
 	nav {
-		top: 250px;
-		text-align: center;
-		font-size: 1.2em;
+		margin-top: 55%;
 	}
 
 	nav ul li {
 		padding: 7% 2%;
-		font-size: .7em;
-		margin-bottom: 30%;
+		font-size: .8em;
 	}
 	.discography {
 		width: 90%;
-		margin: 60% 0 0% 15%;
+		margin: 15% 0 0% 15%;
 	}
 
 	#discotitle {
