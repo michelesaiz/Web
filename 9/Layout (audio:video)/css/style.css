@@ -46,7 +46,7 @@ nav ul li {
 	font-size: .9em;
 }
 
-nav ul a {
+nav ul a:link {
 	text-decoration: none;
 	color: black
 }
