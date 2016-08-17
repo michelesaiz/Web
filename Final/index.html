@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://use.fontawesome.com/d22d361a2c.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,500,700" rel="stylesheet">
+	<link rel="icon" href="images/icon.png">
+	<link href="css/hover.css" rel="stylesheet" media="all">
+
+	<!-- bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+<title>Carrot's</title>
+</head>
+
+<body>
+	<div class="wrapper">
+<!-- top bar -->
+		<div class="container-fluid" id="top">
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li>Country</li>
+					<li>Language</li>
+				</ul>
+			</div>
+			<div class="nav-sign">
+				<a href="signin.html">Sign In / Join
+				</a>
+				<a href="#"><i class="this fa fa-shopping-cart fa-lg" aria-hidden="true"></i></a>
+				<a href="#"><i class="this fa fa-heart fa-lg" aria-hidden="true"></i></a>
+			</div>
+		</div>
+		<!-- main nav -->
+
+		<div class="header">
+			<div class="row">
+				<div class="div col-md-3 col-xs-12">
+					<a href="index.html"><img class="logo" src="images/logo.png" alt="Logo"></a>
+				</div>
+				<div class="div col-md-9">
+
+					<div class="row menu-items">
+						<div class="items col-md-1 col-md-offset-2 hidden-xs hvr-underline-from-center"><a href="#">Categories</a></div>
+						<div class="items col-md-1 hidden-xs hvr-underline-from-center"><a href="#">Today</a></div>
+						<div class="items col-md-1 hidden-xs hvr-underline-from-center"><a href="#">History</a></div>
+						<div class="items col-md-1 hidden-xs hvr-underline-from-center"><a href="#">Sell</a></div>	
+						<div class="items col-md-1 hidden-xs hvr-underline-from-center"><a href="buy.html">Buy</a></div>
+						<div class="items col-md-1 hidden-xs hvr-underline-from-center"><a href="#">Limited</a></div>
+						<div class="items col-md-1 hidden-xs hvr-underline-from-center"><a href="#">Help</a></div>
+						<div class="col-md-3 col-sm-12 col-xs-12">
+							<input id="search" type="text" name="search">
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="main-image-mobile hidden-md hidden-sm hidden-lg">
+			<img src="images/michellecarrot2.jpg">
+			<div class="caption-mobile">
+				<h5>Michelle Obama</h5>
+				<h4>STRAIGHT FROM THE WHITE HOUSE GARDEN</h4>
+				</div>
+		</div>
+
+		<!-- carousel -->
+		<div id="carousel" class="carousel slide hidden-xs" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel" data-slide-to="1"></li>
+				<li data-target="#carousel" data-slide-to="2"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="images/michellecarrot2.jpg" alt="Meryl Streep">
+					<div class="hidden-xs caption">
+						<div class="col-md-12">
+							<h5>Michelle Obama</h5>
+							<h1>STRAIGHT FROM THE WHITE HOUSE GARDEN</h1>
+							<br>
+							<a href="#">See more</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="images/meryl.jpg" alt="Meryl Streep">
+					<div class="hidden-xs caption">
+						<div class="col-md-12">
+							<h5>Meryl Streep</h5>
+							<h1>FROM THE SET TO THE GARDEN</h1>
+							<br>
+							<a href="#">See more</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="images/prince.png" alt="Prince Charles">
+					<div class="hidden-xs caption">
+						<div class="col-md-12">
+							<h5>Prince Charles</h5>
+							<h1>ROYALTY'S VERY OWN ORGANIC FARM IN DUTCHY</h1>
+							<a href="#">See more</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Controls -->
+			<a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+				<i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+			</a>
+			<a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+				<i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+
+			</a>
+		</div> 
+
+		<!-- featured -->
+		<div class="container" id="featured">
+
+			<div class="row">
+				<div class="col-lg-12">
+					<h2 class="page-header">Today's Featured
+						<small class="seemore"><a href="#">See more</a></small>
+					</h2>
+
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-7">
+					<div class="featured-image-block">
+						<img src="images/martha.jpg" alt="Martha Stewart">
+					</div>
+					<div class="article-heading"><h4>BEST CHEFS</h4>
+						<p class="article-link"><a href="#">Martha Stewarts: Limited Red-Striped Carrots</a></p></div>
+					</div>
+					<div class="col-lg-5">
+						<div class="featured-image-block">
+							<img src="images/michellecarrot.jpg" alt="Michelle Obama">
+						</div>
+						<div class="article-heading"><h4>LEADERS</h4>
+							<p class="article-link"><a href="#">Michelle Obama: Grown by USA's First Lady</a></p></div>
+						</div>
+					</div>
+
+				</div>
+
+				<!-- upcoming -->
+				<div class="container" id="upcoming">
+					<div class="row">
+						<div class="col-lg-12">
+							<h2 class="page-header">Upcoming Auctions
+								<small class="seemore"><a href="#">See more</a></small>
+							</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-4">
+							<img src="images/marilyn.jpg" alt="">
+							<div class="article-heading">
+								<h4>CLASSICS</h4>
+								<p class="article-link"><a href="#">Marilyn Monroe's Chosen Carrot for Beauty</a></p>
+							</div>
+						</div>
+
+						<div class="col-lg-4">
+
+							<img src="images/nicole.jpg" alt="">
+
+							<div class="article-heading">
+								<h4>FILM STARS</h4>
+								<p class="article-link"><a href="#">From Nicole Kidman's Farm in Australia</a></p>
+							</div>
+
+						</div>
+						<div class="col-lg-4">
+							<img src="images/oprah.jpg" alt="">
+
+							<div class="article-heading">
+								<h4>TV STARS</h4>
+								<p class="article-link"><a href="#">Oprah's Big Organic Giveaway</a></p>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<!-- recommendations -->
+
+				<div class="container" id="recommendations">
+					<div class="row">
+						<div class="col-lg-12">
+							<h2 class="page-header">Recommendations
+								<small class="seemore"><a href="#">See more</a></small>
+							</h2>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-lg-4">
+							<img src="images/michael.jpg" alt="">
+							<div class="article-heading">
+								<h4>MUSIC LEGENDS</h4>
+								<p class="article-link"><a href="#">Michael Jackson Loved Baby Carrots</a></p>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<img src="images/purple1.jpg" alt="">
+							<div class="article-heading">
+								<h4>MUSIC LEGENDS</h4>
+								<p class="article-link"><a href="#">Prince: A Purple Legacy</a></p>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<img src="images/princecharles2.jpg" alt="">
+							<div class="article-heading">
+								<h4>ROYALTY</h4>
+								<p class="article-link"><a href="#">Prince Charles' Exclusive Royal Carrots</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div> 
+
+				<!-- Live Auctions -->
+
+				<div class="container" id="auctions">
+					<div class="row">
+						<div class="col-lg-12">
+							<h2 class="page-header">Live Auctions
+								<small class="seemore"><a href="#">See all</a></small>
+							</h2>
+						</div>
+						<img src="images/auction.jpg" alt="">
+					</div>
+				</div>
+
+				<!-- one of a kind -->
+				<div class="container" id="one-kind">
+					<div class="row">
+						<div class="col-lg-12">
+							<h2 class="page-header">One of a Kind
+								<small class="seemore"><a href="#">See more</a></small>
+							</h2>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-lg-4">
+							<img src="images/bono2.jpg" alt="">
+							<div class="article-heading">
+								<h4>MUSIC LEGENDS</h4>
+								<p class="article-link"><a href="#">Unique Dwarf Carrot Signed by BONO from U2</a></p>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<img src="images/pope.jpg" alt="">
+							<div class="article-heading">
+								<h4>RELIGION</h4>
+								<p class="article-link"><a href="#">The Pope's Holy Carrots</a></p>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<img src="images/beet.jpg" alt="">
+							<div class="article-heading">
+								<h4>NOVELTY</h4>
+								<p class="article-link"><a href="#">First Ever Carrot-Beet</a></p>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+
+
+				<!-- best -->
+
+				<div class="container" id="best">
+					<div class="row">
+						<div class="col-lg-12">
+							<h2 class="page-header">The Very Best
+								<small class="seemore"><a href="#">See more</a></small>
+							</h2>
+						</div>
+					</div>
+					<div class="table">
+						<div class="row best-title">
+							<div class="col-lg-6">
+								<h4><a href="#">The Duchy Museum of the Carrot</a></h4>
+							</div>
+						</div>
+						<div class="row best-title">
+							<div class="col-lg-6">
+								<h4><a href="#">Winchester's Secret Carrot Society</a></h4>
+							</div>
+						</div>
+						<div class="row best-title">
+							<div class="col-lg-6">
+								<h4><a href="#">History of Carrot Collection</a></h4>
+							</div>
+						</div>
+						<div class="row best-title">
+							<div class="col-lg-6">
+								<h4><a href="#">Greatest Artist Representations</a></h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- footer -->
+				<footer>
+					<div class="container-fluid">
+						<div class="arrowup">
+							<div class="row">
+								<div class="col-lg-12">
+									<a href="#"><i  class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></a><br>
+									<small class="totop">Back to Top</small>
+								</div>
+							</div>
+						</div>
+
+						<div class="info hidden-xs">
+							<div class="row">
+								<div class="col-lg-2 col-sm-2">
+									<h6>Get to Know Us</h6>
+									<ul>
+										<li>About Us</li>
+										<li>News</li>
+										<li>Social Responsibility</li>
+										<li>Affiliates</li>
+										<li>Business With Us</li>
+									</ul>
+								</div>
+								<div class="col-md-2 col-sm-2">
+									<h6>Buy</h6>
+									<ul>
+										<li>Registration</li>
+										<li>Bidding and buying</li>
+										<li>Stores</li>
+										<li>Top Products</li>
+										<li>Language translations</li>
+									</ul>
+								</div>
+								<div class="col-md-2 col-sm-2">
+									<h6>Make Money</h6>
+									<ul>
+										<li>Sell</li>
+										<li>Become an Affiliate</li>
+										<li>Advertise Your Products</li>
+										<li>Self-Publish</li>
+										<li>Become a Vendor</li>
+									</ul>
+								</div>
+								<div class="col-md-2 col-sm-2">
+									<h6>Quick Links</h6>
+									<ul>
+										<li>Privacy Policy</li>
+										<li>Terms and Conditions</li>
+									</ul>
+								</div>
+								<div class="col-md-2 col-sm-2">
+									<h6>Help</h6>
+									<ul>
+										<li>Contact Us</li>
+										<li>Your Account</li>
+										<li>Your Orders</li>
+										<li>Shipping</li>
+										<li>FAQ</li>
+									</ul>
+								</div>
+								<div class="col-md-2 col-sm-2">
+									<h6>Connect</h6>
+									<ul>
+										<li>Facebook</li>
+										<li>Twitter</li>
+										<li>Google +</li>
+										<li>Instagram</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="whitelogo">
+							<div class="row">
+								<div class="col-md-12">
+
+									<img src="images/logowhite.png">
+								</div>
+							</div>
+						</div>
+
+						<div class="copyright">
+							<div class="row">
+								<div class="col-md-12">
+									<p>Copyright © 1983-2016 Carrot’s All Rights Reserved. </p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</footer>
+
+			</div> <!-- wrapper -->
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+			<script src="js/bootstrap.min.js"></script>
+
+			<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+		</body>
+
+
+		</html>
